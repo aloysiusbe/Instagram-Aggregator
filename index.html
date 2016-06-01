@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width">
+    <title>David Clifford Photography</title>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+	<!--jquery-->
+	<script src="./jquery/jquery-1.9.1.min.js"></script>
+	
+	
+	<!--photomax-->
+	
+	<script src="./js/jquery.photomax.min.js"></script>
+	<link rel="stylesheet" href="./css/photomax_trend.css"/>
+	
+		<script>
+	  
+    $( document ).ready(function() {
+
+  
+  $('a').each(function() {
+      $(this).attr("href", function(index, old) {
+            return old.replace("sh0.08/e35/p640x640/", "");
+      });
+});
+  
+ 
+});
+
+		</script>
+	
+	
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Monoton|Iceland|Audiowide|Righteous" rel="stylesheet" type="text/css">
+<style>
+  @media screen and (max-width: 500px) {
+    h2 {margin: 5px 0px 0px 0px!important; float: none !important; display: block !important;font-size:12PX !important; text-align: center !important; 
+    }
+	 h1 {margin: 10px 0px 0px 0px !important; float: none !important; display: block !important;font-size:20PX !important; text-align: center !important; 
+    }
+	    h3 {margin: 5px 5px 0px 0px!important; float: none !important; font-size:12PX !important; text-align: center !important; 
+    }
+#logo {margin: auto !important; float: none !important; display: block !important; text-align: center !important; 
+    }
+}
+H1{font-family: 'Audiowide', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:200; font-size:38PX; letter-spacing: .5px; margin: 20px 0px 10px 0px; color:#333; display: inline-block; }
+H2{font-family: 'Open sans', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:100; font-size:15PX; display:inline-block; margin: 10px 20px 0px 0px; color:#333; text-transform: uppercase; letter-spacing: 0px; }
+
+H3{font-family: 'Open sans', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; text-align: left; font-weight:100; font-size:14PX; display:inline-block; margin: 10px 15px 0px 0px; color:#333; text-transform: uppercase; letter-spacing: 0px; }
+
+#logo {float:left; border:none; width: 250px;}
+
+a {color:#7194da; font-weight: 400; text-decoration: none;}
+
+a:hover {color:#999999 !important; text-decoration: underline !important;  font-weight: 400 !important;}
+
+      body {
+        font-family: 'Iceland', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; font-size:20PX;
+		text-align:center; }
+</style>
+	</head>
+  <body style="text-align:center; margin:0px; background-color: #ffffff;">
+	
+<table align="center" style="background-color: #ffffff;"><tr><td>
+	  
+	<div style="max-width: 1100px;width:100%;">
+<a href="http://www.davidcliffordphotography.com" target="_blank" ><img id="logo"src="http://www.vperry.co/DavidClifford/Images/DCP_logo-300-trans.png"></a>
+
+<h2> EMAIL: <a href="mailto:david@davidcliffordphotography.com">david@davidcliffordphotography.com</a></h2>
+<h2> PHONE: <span style="color:#002080; font-weight: 700;">(970) 404 7775</span></h2>
+		
+
+<h1>SKIING PHOTOGRAPHY</h1>
+<br>
+<h3> <a href="mailto:david@davidcliffordphotography.com">HOME</a></h3> <h3> <a href="mailto:david@davidcliffordphotography.com">CLIMBING</a></h3>  <h3> <a href="mailto:david@davidcliffordphotography.com">RUNNING</a></h3>
+ <h3> <a href="mailto:david@davidcliffordphotography.com">SKIING</a></h3>
+<h3> <a href="mailto:david@davidcliffordphotography.com">AUTO</a></h3>
+ <h3> <a href="mailto:david@davidcliffordphotography.com">ARCHITECTURE</a></h3>
+ 
+
+<div id="photomax" class="photomax">
+  		
+</div>
+
+
+	<script>
+
+	
+	
+	
+
+	
+	$("#photomax").photomax({
+
+		instagramAccessToken:"260796206.0efbe26.89a76a9668934089a2d00d928486fd26",
+
+		//facebookAccessToken:"CAAMHbZBctZCZBsBABM1DPlzrSoL35MxjfKCkI3TvDhmsJM5LmZCA0ZCZAxhYu150Wmh4mQiv0zR2sFP0RlV8NeUrG3Ux13G0ZA2T8cZAUVt8u9eki7qUTZAggn2WZCXZANVykpBADU7UAmurq3JH7wwl8FiHzHWBQhZAvScyci7y2R0RH8X7o4ZBSVT3mPfl45yzcfAIZD",
+
+		facebookAccessToken:"CAACZAlihKZBUMBAMM1J5AXBrXAfYvcZCgfrxrjCMzNV2pCVYh2ZALhM51BC0yKQSEZByCxIL5y7QpKfpNUjM91zWIxFgFYMae48L6YryWa3DODlU4ZAkVjZCWW0l1MP4v032gxlX0JyCROgV8EbvuFAtlYMxpGJXqERUuoaZAJdLZCEDNJpC6D4rr",
+
+		googleApiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+		
+		
+		
+		
+		instagram_user_tagged_photos:[
+			{
+				    name:"Instagram User Tag", 
+      url:"https://instagram.com/davidcliffordphotography", 
+      hashtag:"#skiing", 
+      selected:true
+			}
+		],
+
+		
+		overlayType:'view',
+		displayType:"popup",
+		
+		alwaysUseDropdown:false,
+		skin:"trend4",
+		maxResults:50,
+		photoProtocol:"https:",
+		alignPopupToTop: true,
+		
+		shareLink:"photo",
+		
+		
+		viewCountType:"comma",
+		likeCommentCountType:"abbr",
+		loadMode:"paginate-bottom", //paginate-sides, paginate-bottom
+		 hidePhotoDetails:true, 
+		hideHeader:true,
+		hideNavigation:true,
+
+		showTextInsteadOfIcons:true,
+		loadButtonSize:"large",
+		
+		 thumbnailHeight:"200px", //200px or auto
+		
+
+		
+		translatorFile:"http://www.localhost/youmax_envato_v8_3_masonry/youmax-javascript/json/translation.json",
+		
+		
+		//updateLayoutDelay:1000,		
+		
+		
+	});
+	
+
+$("a").click(function(){
+ alert("Bye! You now leave p1!");
+  
+  $('a').each(function() {
+      $(this).attr("href", function(index, old) {
+            return old.replace("sh0.08/e35/p640x640/", "");
+      });
+});
+  
+ 
+});
+
+
+
+
+
+	</script>
+	
+	</div>	</td></tr></table>
+	
+
+  </body>
+</html>
+
+
+
